@@ -1,0 +1,56 @@
+.container-fluid {
+  /* background-image: url("src/assets/1.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes myAnimi {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* .dark-theme {
+  background-color: #051e36;
+  color: #ecf0f1;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  color: black;
+}
+
+.content {
+  color: white;
+  padding-top: 2px;
+}
+.card:hover {
+  cursor: pointer;
+} */
