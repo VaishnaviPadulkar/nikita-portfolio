@@ -13,8 +13,7 @@ const Projects = () => {
             <span className="fs-2 fw-bold text-center my-2">
               "जीवनातील क्षणांना शब्दात जिवंत करणाऱ्या कवितांचे अद्वितीय अनुभव"
             </span>
-            <div className="col-sm-4 offset-2 mt-5">
-              {/* <p className="fs-1 fw-bold ">Project 1</p> */}
+            <div className="col-12 col-md-4 offset-md-2 mt-4 mt-md-5">
               <p>
                 माझ्या कवितांच्या माध्यमातून मी जीवनातील छोट्या-छोट्या क्षणांना
                 आणि अनुभवांना शब्दबद्ध करण्याचा प्रयत्न केला आहे. या कवितांमध्ये
@@ -36,7 +35,7 @@ const Projects = () => {
                 <br />
               </p>
             </div>
-            <div className="col-sm-4 offset-1 mt-5">
+            <div className="col-12 col-md-4 offset-md-2 mt-md-5 ms-2">
               <img
                 style={{
                   animation: "myAnim 5s ease 0s 4 normal forwards;",
@@ -48,7 +47,7 @@ const Projects = () => {
                 alt=""
               />
             </div>
-            <div className="col-sm-8 offset-2">
+            <div className="col-12 col-md-8 offset-md-2 mt-4 ">
               <p>
                 शब्दांच्या आणि विचारांच्या या प्रवासात तुम्ही माझ्याबरोबर सहभागी
                 व्हाल. तुमचं स्वागत करण्यात मला आनंद होईल, आणि तुम्हाला या
