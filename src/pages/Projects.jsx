@@ -6,15 +6,18 @@ const Projects = () => {
     <div>
       <div
         id="projects"
-        className="container-fluid d-flex align align-items-center py-5"
+        className="container-fluid d-flex align-items-center py-5"
       >
         <div className="container">
-          <div className="row py-5 ">
-            <span className="fs-2 fw-bold text-center my-2">
-              "जीवनातील क्षणांना शब्दात जिवंत करणाऱ्या कवितांचे अद्वितीय अनुभव"
-            </span>
-            <div className="col-12 col-md-4 offset-md-2 mt-4 mt-md-5">
-              <p>
+          <div className="row py-5">
+            <div className="col-12">
+              <span className="fs-3 fw-bold text-center d-block my-3">
+                "जीवनातील क्षणांना शब्दात जिवंत करणाऱ्या कवितांचे अद्वितीय
+                अनुभव"
+              </span>
+            </div>
+            <div className="col-12 col-md-6 mt-4 mt-md-5">
+              <p className="text-justify">
                 माझ्या कवितांच्या माध्यमातून मी जीवनातील छोट्या-छोट्या क्षणांना
                 आणि अनुभवांना शब्दबद्ध करण्याचा प्रयत्न केला आहे. या कवितांमध्ये
                 निसर्गाचं सौंदर्य, मानवी नात्यांची गहराई, आणि आत्मविचारांचं
@@ -31,31 +34,15 @@ const Projects = () => {
                 आणि दृष्टीकोन आहे, जो जीवनाच्या विविध पैलूंचं उजळणी करतो. मला
                 आशा आहे की तुम्हाला या कवितांमधून एक वेगळा आनंद आणि समृद्ध अनुभव
                 मिळेल.
-                <br />
-                <br />
               </p>
-            </div>
-            <div className="col-12 col-md-4 offset-md-2 mt-md-5 ms-2">
-              <img
-                style={{
-                  animation: "myAnim 5s ease 0s 4 normal forwards;",
-                }}
-                className="img-fluid"
-                src={img2}
-                height="100%"
-                width="100%"
-                alt=""
-              />
-            </div>
-            <div className="col-12 col-md-8 offset-md-2 mt-4 ">
-              <p>
+              <p className="text-justify">
                 शब्दांच्या आणि विचारांच्या या प्रवासात तुम्ही माझ्याबरोबर सहभागी
                 व्हाल. तुमचं स्वागत करण्यात मला आनंद होईल, आणि तुम्हाला या
                 कवितांमधून एक विशिष्ट अनुभव मिळेल अशी अपेक्षा आहे.
-                <b>"नभी माझ्या चांदण्या.."</b> या पुस्तकातील कवितांच्या प्रवासात
-                तुम्हीही सहभागी व्हा आणि माझ्या लेखणीच्या गोडवाचा आनंद घ्या. हे
-                पुस्तक Amazon वर उपलब्ध आहे आणि मला खात्री आहे की हे तुम्हाला
-                नक्कीच आवडेल.
+                <b> "नभी माझ्या चांदण्या.." </b> या पुस्तकातील कवितांच्या
+                प्रवासात तुम्हीही सहभागी व्हा आणि माझ्या लेखणीच्या गोडवाचा आनंद
+                घ्या. हे पुस्तक Amazon वर उपलब्ध आहे आणि मला खात्री आहे की हे
+                तुम्हाला नक्कीच आवडेल.
                 <br />
                 <br />
                 <strong>आता Amazon वर उपलब्ध:</strong>
@@ -63,13 +50,47 @@ const Projects = () => {
                   className="p-2"
                   href="https://amzn.in/d/fULLO6u"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://amzn.in/d/fULLO6u
-                  {/* <i class="bi bi-github"></i> */}
                 </a>
-                {/* Link :- <a href=""> https://amzn.in/d/fULLO6u</a> */}
+                <br />
                 आपल्या प्रतिसादाची आणि प्रेमाची वाट पाहत आहे.
               </p>
+            </div>
+            <div className="col-12 col-md-6 mt-md-5">
+              <img
+                style={{ animation: "myAnim 5s ease 0s 4 normal forwards" }}
+                className="img-fluid rounded "
+                height="100%"
+                width="100%"
+                src={img2}
+                alt="Project Image"
+              />
+            </div>
+            <div className="col-12 mt-4">
+              {/* <p className="text-center">
+                शब्दांच्या आणि विचारांच्या या प्रवासात तुम्ही माझ्याबरोबर सहभागी
+                व्हाल. तुमचं स्वागत करण्यात मला आनंद होईल, आणि तुम्हाला या
+                कवितांमधून एक विशिष्ट अनुभव मिळेल अशी अपेक्षा आहे.
+                <b> "नभी माझ्या चांदण्या.." </b> या पुस्तकातील कवितांच्या
+                प्रवासात तुम्हीही सहभागी व्हा आणि माझ्या लेखणीच्या गोडवाचा आनंद
+                घ्या. हे पुस्तक Amazon वर उपलब्ध आहे आणि मला खात्री आहे की हे
+                तुम्हाला नक्कीच आवडेल.
+                <br />
+                <br />
+                <strong>आता Amazon वर उपलब्ध:</strong>
+                <a
+                  className="p-2"
+                  href="https://amzn.in/d/fULLO6u"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://amzn.in/d/fULLO6u
+                </a>
+                <br />
+                आपल्या प्रतिसादाची आणि प्रेमाची वाट पाहत आहे.
+              </p> */}
             </div>
           </div>
         </div>

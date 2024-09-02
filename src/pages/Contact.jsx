@@ -40,23 +40,23 @@ export default function Contact() {
               <br />
               <span>12345 12345</span>
             </div> */}
-            <div className="col-sm-2 ">
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
               <strong htmlFor="email">संपर्क ई-मेल :</strong>
               <br />
               <a href="mailto: nikita10jane@gmail.com">
                 nikita10jane@gmail.com
               </a>
             </div>
-            <div className="col-sm-2  ">
+            <div className="col-12 col-sm-6 col-md-3 mb-4 ">
               <strong>Follow Me</strong>
               <br />
               <a
-                className="py-2 d-flex gap-2 "
+                className="py-2 d-flex gap-2 align-items-center"
                 href="https://www.instagram.com/nikitajkpoet?igsh=MWR0Zml2a2pwcndiaw=="
                 target="_blank"
               >
                 <i class="bi bi-instagram"></i>
-                <p>nikitajkpoet</p>
+                <p className="mb-0">nikitajkpoet</p>
               </a>
             </div>
             <div className="col-sm-2 ">
